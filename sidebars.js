@@ -35,7 +35,7 @@ const sidebars = {
     {
       type: "category",
       label: "R",
-      items: ["r/r"],
+      items: ["r/index"],
     }
   ],
     
