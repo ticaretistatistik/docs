@@ -84,6 +84,12 @@ const config = {
             position: 'left',
             label: 'Python',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'rSidebar',
+            position: 'left',
+            label: 'R',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',

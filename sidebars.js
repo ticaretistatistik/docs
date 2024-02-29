@@ -30,6 +30,14 @@ const sidebars = {
       items: ["spss/program_nedir", "spss/kurulum_kilavuzu"],
     }
   ],
+
+  rSidebar: [
+    {
+      type: "category",
+      label: "R",
+      items: ["r/r"],
+    }
+  ],
     
   // But you can create a sidebar manually
   
