@@ -20,14 +20,14 @@ const sidebars = {
     {
       type: "category",
       label: "Python",
-      items: ["python/python_nedir"],
+      items: ["python/index"],
     }
   ],
   spssSidebar: [
     {
       type: "category",
       label: "IBM SPSS",
-      items: ["spss/program_nedir", "spss/kurulum_kilavuzu"],
+      items: ["spss/index", "spss/kurulum_kilavuzu"],
     }
   ],
 
