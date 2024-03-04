@@ -92,7 +92,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: '#',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,33 +102,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Dökümanlar',
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Topluluk',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: '#',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: '#',
               },
+              {
+                label: 'Instagram',
+                href: '#'
+              }
             ],
           },
           {
-            title: 'More',
+            title: 'Daha fazlası',
             items: [
               {
                 label: 'Blog',
@@ -136,12 +136,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: '#',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Iticu Stat | Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
