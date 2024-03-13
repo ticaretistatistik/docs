@@ -20,7 +20,7 @@ const sidebars = {
     {
       type: "category",
       label: "Python",
-      items: ["python/index"],
+      items: ["python/index", "python/kurulum", "python/tensorflow_nedir"],
     }
   ],
   spssSidebar: [
