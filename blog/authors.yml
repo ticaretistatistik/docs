@@ -15,3 +15,27 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+mertsismanoglu:
+  name: Mert Şişmanoğlu
+  title: Backend Developer
+  url: https://github.com/mertssmnoglu
+  image_url: https://github.com/mertssmnoglu.png
+
+yigitefeavci:
+  name: Yiğit Efe Avcı
+  title: Placeholder
+  url: https://ticaret.edu.tr
+  image_url: https://i.pravatar.cc/150?img=4
+
+kubilayerislik:
+  name: Kubilay Erişlik
+  title: Placeholder
+  url: https://ticaret.edu.tr
+  image_url: https://i.pravatar.cc/150?img=2
+
+denizgerceker:
+  name: Deniz Gerçeker
+  title: Placeholder
+  url: https://ticaret.edu.tr
+  image_url: https://i.pravatar.cc/150?img=3
