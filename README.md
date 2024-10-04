@@ -1,41 +1,72 @@
-# Website
+# Ticaret İstatistik Yardımcı Döküman Sitesi
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bu repository, İstanbul Ticaret Üniversitesi İstatistik bölümü öğrencileri için hazırlananmış yardımcı döküman sitesinin kaynak kodlarını barındırır.
 
-### Installation
+## İçindekiler
 
+1. [Başlangıç](#başlangıç)
+2. [Gereksinimler](#gereksinimler)
+3. [Kurulum](#kurulum)
+4. [Kullanım](#kullanım)
+5. [Katkıda Bulunanlar](#katkıda-bulunanlar)
+6. [Katkıda Bulunma](#katkıda-bulunma)
+7. [Lisans](#lisans)
+
+## Başlangıç
+
+Bu web sitesi [NodeJS](https://nodejs.org/en/download) ve [Docusaurus](https://docusaurus.io/) kullanılarak oluşturulmuştur. Eğer bu siteyi kendi bilgisayarınızda barındırmak ve erişmek istiyorsanız kurulum aşamasına geçebilir ve yönergeleri takip ederek bilgisayarınızda da siteyi çalıştırabilirsiniz.
+
+## Gereksinimler
+
+Web sitesinin kaynak kodlarını bilgisayarınıza çekebilmeniz ve gerekli paketleri kurabilmek için birkaç ön kurulum adımının izlenmesi gerekir. Aşağıdaki bağlantılardan kurulum dosyalarını indirerek kurulumlarını gerçekleştirebilirsiniz.
+
+- [Git](https://git-scm.com/downloads)
+- [NodeJS & Npm](https://nodejs.org/en/download/)
+
+## Kurulum
+
+Kurulum aşamalarını tamamlamak için bilgisayarınızın terminaline gidip sırasıyla aşağıdaki işlemleri uygulamanız gerekir.
+
+1. Bu repository'yi bilgisayarınıza git clone aracılığıyla klonlayın.
+
+    ```shell
+    git clone git@github.com:mertssmnoglu/icu-istatistik-teknik.git
+    ```
+
+2. Terminalinizden ana dizine gidin.
+
+    ```shell
+    cd icu-istatistik-teknik
+    ```
+
+3. Uygulamanın çalışabilmesi için gerekli paketleri indirin
+
+    ```shell
+    npm install
+    ```
+
+## Kullanım
+
+Web sitesini, aşağıdaki komut yardımıyla `development` modunda çalıştırabilirsiniz. `development` modu, siz dosyaları değiştirdikçe ve kaydettikçe otomatik olarak siteyi yenileyecektir.
+
+Siteye, tarayıcınızdan [localhost:3000](http://localhost:3000) adresine girerek erişebilirsiniz.
+
+```shell
+npm start
 ```
-$ yarn
-```
 
-### Local Development
+## Katkıda Bulunanlar
 
-```
-$ yarn start
-```
+<a href="https://github.com/mertssmnoglu/icu-istatistik-teknik/graphs/contributors">
+  <img alt="List of the contributors with every contributor's github profile picture" src="https://contrib.rocks/image?repo=mertssmnoglu/icu-istatistik-teknik" />
+</a>
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Katkıda bulunma
 
-### Build
+Eğer sizler de bu web sitesinde yazı yazmak veya geliştirme aşamalarına katkıda bulunmak isterseniz daha detaylı bilgiye [CONTRIBUTING.md](./CONTRIBUTING.md) üzerinden erişebilirsiniz.
 
-```
-$ yarn build
-```
+## Lisans
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Bu proje `TODO_ADD_LICENSE_NAME` Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasını inceleyebilirsiniz.
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This project is licensed under the `TODO_ADD_LICENSE_NAME` License. See the [LICENSE](./LICENSE) file for details.
