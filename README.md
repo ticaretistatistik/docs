@@ -9,7 +9,7 @@ Bu repository, İstanbul Ticaret Üniversitesi İstatistik bölümü öğrencile
 3. [Kurulum](#kurulum)
 4. [Kullanım](#kullanım)
 5. [Katkıda Bulunanlar](#katkıda-bulunanlar)
-6. [Katkıda Bulunma](#katkıda-bulunma)
+6. [Katkıda Bulunma Rehberi](#katkıda-bulunma-rehberi)
 7. [Lisans](#lisans)
 
 ## Başlangıç
@@ -61,7 +61,7 @@ npm start
   <img alt="List of the contributors with every contributor's github profile picture" src="https://contrib.rocks/image?repo=mertssmnoglu/icu-istatistik-teknik" />
 </a>
 
-## Katkıda bulunma
+## Katkıda Bulunma Rehberi
 
 Eğer sizler de bu web sitesinde yazı yazmak veya geliştirme aşamalarına katkıda bulunmak isterseniz daha detaylı bilgiye [CONTRIBUTING.md](./CONTRIBUTING.md) üzerinden erişebilirsiniz.
 
