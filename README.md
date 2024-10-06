@@ -30,7 +30,7 @@ Kurulum aşamalarını tamamlamak için bilgisayarınızın terminaline gidip s�
 1. Bu repository'yi bilgisayarınıza git clone aracılığıyla klonlayın.
 
     ```shell
-    git clone git@github.com:mertssmnoglu/icu-istatistik-teknik.git
+    git clone git@github.com:ticaretistatistik/docs.git
     ```
 
 2. Terminalinizden ana dizine gidin.
@@ -57,8 +57,8 @@ npm start
 
 ## Katkıda Bulunanlar
 
-<a href="https://github.com/mertssmnoglu/icu-istatistik-teknik/graphs/contributors">
-  <img alt="List of the contributors with every contributor's github profile picture" src="https://contrib.rocks/image?repo=mertssmnoglu/icu-istatistik-teknik" />
+<a href="https://github.com/ticaretistatistik/docs/graphs/contributors">
+  <img alt="List of the contributors with every contributor's github profile picture" src="https://contrib.rocks/image?repo=ticaretistatistik/docs" />
 </a>
 
 ## Katkıda Bulunma Rehberi
