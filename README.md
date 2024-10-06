@@ -67,6 +67,6 @@ Eğer sizler de bu web sitesinde yazı yazmak veya geliştirme aşamalarına kat
 
 ## Lisans
 
-Bu proje `TODO_ADD_LICENSE_NAME` Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasını inceleyebilirsiniz.
+Bu proje `GPL-3` Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasını inceleyebilirsiniz.
 
-This project is licensed under the `TODO_ADD_LICENSE_NAME` License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the `GPL-3` License. See the [LICENSE](./LICENSE) file for details.
