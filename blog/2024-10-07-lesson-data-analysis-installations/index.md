@@ -47,8 +47,21 @@ Kodları çalıştırabileceğiniz ortam hazır, şimdi ise bir editöre ihtiyac
     ![MacOS Finder/Spotlight üzerinden Terminal Uygulamasını Açma](./assets/mac/mac-terminal-finder-spotlight.jpeg)
 5. Terminal uygulaması açıldığında karşınıza aşağıdaki gibi bir ekran çıktığından emin olun.
     ![MacOS Terminal Arayüzü](./assets/mac/mac-terminal-interface.jpeg)
-6. Açılan terminal ekranında `cd İndirilenler` veya `cd Downloads` yazarak indirme yaptığınız klasöre geçiş yapın.
-7. İndirilenler klasörüne geçiş yaptıktan sonra `sh ./miniconda-vscode-macos.sh` komutunu çalıştırın ve komut dosyasının yönlendirmelerini takip edin.
+6. Açılan terminal ekranında, konumunuzu değiştirmek için aşağıdaki komutlardan sistem diliniz ile uyuşanı seçin.
+
+    ```shell
+    cd İndirilenler
+    ```
+
+    ```shell
+    cd Downloads
+    ```
+
+7. İndirilenler klasörüne geçiş yaptıktan sonra aşağıdaki komutu çalıştırın ve komut dosyasının yönlendirmelerini takip edin. (Yönetici şifrenizi girmeniz gerekebilir.)
+
+    ```shell
+    sh ./miniconda-vscode-macos.sh
+    ```
 
 Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş demektir.
 
