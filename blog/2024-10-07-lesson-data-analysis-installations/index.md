@@ -42,9 +42,9 @@ Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş dem
 2. Açılan sekmede sayfaya sağ tıklayarak `Farklı Kaydet` seçeneğine tıklayın ve bilgisayarınızıa ilgili dosyayı kaydedin.
 3. Bilgisayarınızındaki `Dosyalar` uygulamasına girin ve `İndirilenler` klasörünü açın.
 4. Bilgisayarınızdaan Finder'a veya Spotlight'a girin ve `Terminal` uygulamasını açın
-    ![MacOS Finder/Spotlight üzerinden Terminal Uygulamasını Açma](./assets/mac-terminal-finder-spotlight.jpeg)
+    ![MacOS Finder/Spotlight üzerinden Terminal Uygulamasını Açma](./assets/mac/mac-terminal-finder-spotlight.jpeg)
 5. Terminal uygulaması açıldığında karşınıza aşağıdaki gibi bir ekran çıktığından emin olun.
-    ![MacOS Terminal Arayüzü](./assets/mac-terminal-interface.jpeg)
+    ![MacOS Terminal Arayüzü](./assets/mac/mac-terminal-interface.jpeg)
 6. Açılan terminal ekranında `cd İndirilenler` veya `cd Downloads` yazarak indirme yaptığınız klasöre geçiş yapın.
 7. İndirilenler klasörüne geçiş yaptıktan sonra `sh ./miniconda-vscode-macos.sh` komutunu çalıştırın ve komut dosyasının yönlendirmelerini takip edin.
 
