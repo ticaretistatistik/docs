@@ -8,19 +8,19 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Iticu Stat',
+  title: 'Ticaret İstatistik',
   tagline: 'İstanbul Ticaret Üniversitesi İstatistik bölümü öğrencileri için hazırlanan yardımcı döküman sitesi.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ticaretistatistik.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Iticu Stat', // Usually your GitHub org/user name.
+  organizationName: 'ticaretistatistik', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ticaretistatistik/docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ticaretistatistik/docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,12 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpeg',
       navbar: {
-        title: 'Iticu Stat',
+        title: 'Ticaret İstatistik',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Ticaret İstatistik Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -92,7 +92,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: '#',
+            href: 'https://github.com/ticaretistatistik/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,25 +105,25 @@ const config = {
             title: 'Dökümanlar',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs',
+                label: 'IBM SPSS',
+                to: '/docs/spss/',
+              },
+              {
+                label: 'Python',
+                to: '/docs/python/',
+              },
+              {
+                label: 'R',
+                to: '/docs/r/',
               },
             ],
           },
           {
-            title: 'Topluluk',
+            title: 'Sosyal Medya',
             items: [
               {
-                label: 'Discord',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
-              },
-              {
                 label: 'Instagram',
-                href: '#'
+                href: 'https://instagram.com/ticaretistatistik'
               }
             ],
           },
@@ -136,12 +136,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: '#',
+                href: 'https://github.com/ticaretistatistik/docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Iticu Stat | Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ticaret İstatistik | Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
