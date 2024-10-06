@@ -32,7 +32,9 @@ Merhabalar, Ticaret İstatistik topluluğunun ilk blog yazısına hoş geldiniz.
 
 6. Çalışan komut dosyasının yönlendirmelerini takip edin.
 
-Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş demektir. Kendinize biraz zaman ayırabilir, sevdiğiniz bir içeceği içebilir ve bilgisayarınızda gerçekleşen değişikliklerin farkına varabilirsiniz. İyi kodlamalar 🙂
+Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş demektir.
+
+Kodları çalıştırabileceğiniz ortam hazır, şimdi ise bir editöre ihtiyacınız olacak. Visual Studio Code yapılandırmasına erişmek için [tıklayın](#visual-studio-code)
 
 ---
 
@@ -48,4 +50,34 @@ Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş dem
 6. Açılan terminal ekranında `cd İndirilenler` veya `cd Downloads` yazarak indirme yaptığınız klasöre geçiş yapın.
 7. İndirilenler klasörüne geçiş yaptıktan sonra `sh ./miniconda-vscode-macos.sh` komutunu çalıştırın ve komut dosyasının yönlendirmelerini takip edin.
 
-Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş demektir. Kendinize biraz zaman ayırabilir, sevdiğiniz bir içeceği içebilir ve bilgisayarınızda gerçekleşen değişikliklerin farkına varabilirsiniz. İyi kodlamalar 🙂
+Eğer bir hata mesajı görmediyseniz işlemler başarı ile gerçekleşmiş demektir.
+
+Kodları çalıştırabileceğiniz ortam hazır, şimdi ise bir editöre ihtiyacınız olacak. Visual Studio Code yapılandırmasına erişmek için [tıklayın](#visual-studio-code)
+
+---
+
+### Visual Studio Code
+
+Eğer üst kısımda anlatılan işletim sistemine göre kurulum adımlarını takip ettiyseniz ve herhangi bir hata almadıysanız Visual Studio Code kurulumunuz gerçekleşmiş demektir. Python programlama dili ile kodlama yaparken işimize yarayacak olan bir takım eklentileri kurabilmemiz için gereken `Profil` dosyasını indirip editöre uygulanmasını sağlayacağız.
+
+1. Eğer indirmediyseniz ilgili [vscode profil dosyasını tarayıcınızda açın](https://gist.githubusercontent.com/mertssmnoglu/7a82ec0e7a26c88b7adf6116e62ae80b/raw/3bf99820fafa3596ca7eddcdfb5f06f3b6de4e7d/ticaretistatistik.code-profile)
+2. Açılan sekmede sayfaya sağ tıklayarak `Farklı Kaydet` seçeneğine tıklayın ve bilgisayarınızıa ilgili dosyayı kaydedin.
+3. Daha önceden kurulumu gerçekleşmiş olan `Visual Studio Code` uygulamasına giriş yapın.
+4. Sol alt köşedeki ayarlar ikonuna tıklayın.
+
+    ![VSCode - Ayarlar](./assets/vscode/vscode-settings.png)
+5. Açılan menüde "Profiller" veya "Profiles" seçeneğini seçin.
+
+    ![VSCode - Profiller](./assets/vscode/vscode-profiles.png)
+6. "Yeni Profil" veya "New Profile" yazısının sağındaki alt ok simgesine tıklayın.
+
+    ![VSCode - Profil Oluşturma](./assets/vscode/vscode-new-profile.png)
+7. Açılan menüden "Profil Dahil Et" veya "Import Profile" seçeneğini seçin.
+8. Açılan menüda "Dosya Seç" veya "Select File" yazısına tıklanır. Ardından açılan menüdan `ticaretistatistik.code-profile` dosyasını seçin.
+
+    ![VSCode - Profil Dosyası Seçme](./assets/vscode/vscode-profile-import-file.png)
+9. Son olarak "Oluştur" veya "Create" butonuna tıklanır.
+
+    ![VSCode - Profil Oluşturma Son İşlem](./assets/vscode/vscode-profile-create.png)
+
+Tüm bu adımları başarıyla gerçekleştirdiyseniz artık hazırsınız demektir. Kendinize biraz zaman ayırabilir, sevdiğiniz bir içeceği içebilir ve bilgisayarınızda gerçekleşen değişikliklerin farkına varabilirsiniz. İyi kodlamalar 🙂
