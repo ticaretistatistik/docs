@@ -14,16 +14,16 @@ const config = {
 
   // Set the production url of your site here
   //TODO: Change url
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ticaretistatistik.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   //TODO: Change base url
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   //TODO: Change organization name and project name
-  organizationName: 'Iticu Stat', // Usually your GitHub org/user name.
+  organizationName: 'ticaretistatistik', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
