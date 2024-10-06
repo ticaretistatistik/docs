@@ -47,14 +47,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mertssmnoglu/icu-istatistik-teknik/tree/main/',
+            'https://github.com/ticaretistatistik/docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mertssmnoglu/icu-istatistik-teknik/tree/main/',
+            'https://github.com/ticaretistatistik/docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -95,7 +95,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/mertssmnoglu/icu-istatistik-teknik',
+            href: 'https://github.com/ticaretistatistik/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -139,7 +139,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/mertssmnoglu/icu-istatistik-teknik',
+                href: 'https://github.com/ticaretistatistik/docs',
               },
             ],
           },
