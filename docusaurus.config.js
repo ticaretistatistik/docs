@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Ticaret İstatistik',
   tagline: 'İstanbul Ticaret Üniversitesi İstatistik bölümü öğrencileri için hazırlanan yardımcı döküman sitesi.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   //TODO: Change url
@@ -72,7 +72,7 @@ const config = {
         title: 'Ticaret İstatistik',
         logo: {
           alt: 'Ticaret İstatistik Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
