@@ -13,16 +13,13 @@ const config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  //TODO: Change url
   url: 'https://ticaretistatistik.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  //TODO: Change base url
   baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  //TODO: Change organization name and project name
   organizationName: 'ticaretistatistik', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
