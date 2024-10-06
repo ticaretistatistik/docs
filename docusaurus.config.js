@@ -122,11 +122,11 @@ const config = {
             ],
           },
           {
-            title: 'Topluluk',
+            title: 'Sosyal Medya',
             items: [
               {
                 label: 'Instagram',
-                href: 'https://instagram.com/istatistikticaret'
+                href: 'https://instagram.com/ticaretistatistik'
               }
             ],
           },
