@@ -8,18 +8,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Iticu Stat',
+  title: 'Ticaret İstatistik',
   tagline: 'İstanbul Ticaret Üniversitesi İstatistik bölümü öğrencileri için hazırlanan yardımcı döküman sitesi.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
+  //TODO: Change url
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
+  //TODO: Change base url
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+  //TODO: Change organization name and project name
   organizationName: 'Iticu Stat', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
@@ -44,14 +47,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mertssmnoglu/icu-istatistik-teknik/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mertssmnoglu/icu-istatistik-teknik/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,9 +69,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Iticu Stat',
+        title: 'Ticaret İstatistik',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Ticaret İstatistik Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -92,7 +95,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: '#',
+            href: 'https://github.com/mertssmnoglu/icu-istatistik-teknik',
             label: 'GitHub',
             position: 'right',
           },
@@ -105,8 +108,16 @@ const config = {
             title: 'Dökümanlar',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs',
+                label: 'IBM SPSS',
+                to: '/docs/spss/',
+              },
+              {
+                label: 'Python',
+                to: '/docs/python/',
+              },
+              {
+                label: 'R',
+                to: '/docs/r/',
               },
             ],
           },
@@ -114,16 +125,8 @@ const config = {
             title: 'Topluluk',
             items: [
               {
-                label: 'Discord',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
-              },
-              {
                 label: 'Instagram',
-                href: '#'
+                href: 'https://instagram.com/istatistikticaret'
               }
             ],
           },
@@ -136,12 +139,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: '#',
+                href: 'https://github.com/mertssmnoglu/icu-istatistik-teknik',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Iticu Stat | Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ticaret İstatistik | Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
