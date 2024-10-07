@@ -22,6 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ticaretistatistik', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -106,15 +107,15 @@ const config = {
             items: [
               {
                 label: 'IBM SPSS',
-                to: '/docs/spss/',
+                to: '/docs/docs/spss/',
               },
               {
                 label: 'Python',
-                to: '/docs/python/',
+                to: '/docs/docs/python/',
               },
               {
                 label: 'R',
-                to: '/docs/r/',
+                to: '/docs/docs/r/',
               },
             ],
           },
@@ -132,7 +133,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/docs/blog',
               },
               {
                 label: 'GitHub',

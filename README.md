@@ -36,7 +36,7 @@ Kurulum aşamalarını tamamlamak için bilgisayarınızın terminaline gidip s�
 2. Terminalinizden ana dizine gidin.
 
     ```shell
-    cd icu-istatistik-teknik
+    cd docs
     ```
 
 3. Uygulamanın çalışabilmesi için gerekli paketleri indirin
