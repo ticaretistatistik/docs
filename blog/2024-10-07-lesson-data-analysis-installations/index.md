@@ -16,7 +16,7 @@ Merhabalar, Ticaret İstatistik topluluğunun ilk blog yazısına hoş geldiniz.
 
 ### Windows
 
-1. Windows üzerinde gerekli kurulumları gerçekleştirecek olan <a href="https://gist.githubusercontent.com/yigit433/dad44f953742f4858362696514a8475e/raw/0aa95f028939468587d70796502276ae0cde3598/script.ps1" target="_blank">komut dosyasını tarayıcınızda açın</a>
+1. Windows üzerinde gerekli kurulumları gerçekleştirecek olan <a href="https://gist.githubusercontent.com/yigit433/dad44f953742f4858362696514a8475e/raw/8ec1a197a948efb0419b33997a63c2369798ca71/miniconda-vscode-windows.ps1" target="_blank">komut dosyasını tarayıcınızda açın</a>
 2. Açılan sekmede sayfaya sağ tıklayarak `Farklı Kaydet` seçeneğine tıklayın ve bilgisayarınızıa ilgili dosyayı kaydedin.
 3. Bilgisayarınızındaki `Dosya Gezgini` uygulamasına girin ve `İndirilenler` klasörünü açın.
 4. İndirilenler klasörü içerisinde Yönetici olarak Powershell açın.
