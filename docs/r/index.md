@@ -21,8 +21,3 @@ R programlama dili, özellikle istatistiksel analiz ve veri bilimi alanında yay
 4. **Geniş Topluluk ve Destek:** R, geniş bir kullanıcı topluluğuna sahiptir. Bu da çeşitli problemler için çevrimiçi kaynakların, derslerin ve dokümantasyonların kolayca bulunmasını sağlar. Geliştirici topluluğu sürekli olarak yeni paketler ekler ve mevcut olanları geliştirir.
 
 5. **Makine Öğrenimi ve Yapay Zeka:** R'de makine öğrenimi algoritmalarını uygulamak için caret, randomForest gibi popüler paketler mevcuttur. Veri bilimciler, R'yi tahmin modelleri geliştirme, sınıflandırma, kümeleme ve regresyon gibi görevlerde kullanabilirler.
-
-## R'nin Dezavantajları
-- **Yavaşlık:** Büyük veri setleri üzerinde çalışırken R'nin performansı, bazı diğer diller (örneğin Python veya Java) ile karşılaştırıldığında yavaş olabilir. Ancak bu, R'yi paralel programlama ve C/C++ ile entegrasyon yaparak optimize etmek mümkündür.
-
-- **Öğrenme Eğrisi:** R, başlangıçta bazı kullanıcılara karmaşık gelebilir, özellikle veri yapıları ve fonksiyonların kapsamlı doğası nedeniyle.
