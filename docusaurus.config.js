@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ticaret İstatistik',
-  tagline: 'İstanbul Ticaret Üniversitesi İstatistik bölümü öğrencileri için hazırlanan yardımcı döküman sitesi.',
+  tagline: "İstatistik —  Güçlü akademik kadrosu ile istatistiğe dair her şey sizi geleceğe hazırlıyor.",
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -65,6 +65,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'Bizi Instagram üzerinden takip ederek en güncel ticaret istatistikleri, analizler ve özel içeriklere anında ulaşabilirsiniz. Kaçırmamak için şimdi  <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/ticaretistatistik">takip edin</a>!',
+        backgroundColor: '#f5cf06',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
+
+      hideOnScroll: true,
+
       image: 'img/social-card.jpeg',
       navbar: {
         title: 'Ticaret İstatistik',
@@ -75,9 +87,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
+            sidebarId: 'hakkimizdaSidebar',
+            position: 'left',
+            label: 'Hakkımızda',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'spssSidebar',
             position: 'left',
-            label: 'IBM SPSS',
+            label: 'Jamovi',
           },
           {
             type: 'docSidebar',
@@ -93,6 +111,16 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://ticaret.edu.tr/istatistik/akademik-kadro/',
+            label: 'Akademik Kadro',
+            position: 'right',
+          },
+          {
+            href: 'https://ticaret.edu.tr/istatistik/wp-content/uploads/sites/30/2022/09/2022-2023_Istatistik_Ders-Icerikleri.pdf',
+            label: 'Müfredat',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/ticaretistatistik/docs',
             label: 'GitHub',
             position: 'right',
@@ -106,10 +134,6 @@ const config = {
             title: 'Dökümanlar',
             items: [
               {
-                label: 'IBM SPSS',
-                to: '/docs/docs/spss/',
-              },
-              {
                 label: 'Python',
                 to: '/docs/docs/python/',
               },
@@ -120,20 +144,32 @@ const config = {
             ],
           },
           {
-            title: 'Sosyal Medya',
+            title: "Akademik Bilgiler",
             items: [
               {
-                label: 'Instagram',
-                href: 'https://instagram.com/ticaretistatistik'
-              }
-            ],
+                label: 'Bölüm Sayfası',
+                href: 'https://ticaret.edu.tr/istatistik/',
+              },
+              {
+                label: 'Akademik Kadro',
+                href: 'https://ticaret.edu.tr/istatistik/akademik-kadro/',
+              },
+              {
+                label: 'Ders Programları',
+                href: 'https://ticaret.edu.tr/istatistik/ders-programlari/',
+              },
+            ]
           },
           {
-            title: 'Daha fazlası',
+            title: 'Sosyal',
             items: [
               {
                 label: 'Blog',
                 to: '/docs/blog',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/ticaretistatistik'
               },
               {
                 label: 'GitHub',
@@ -142,7 +178,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ticaret İstatistik | Built with Docusaurus.`,
+        copyright: `Copyright © 2024 Ticaret İstatistik | Built with <a target="_blank" rel="noopener noreferrer" href="https://docusaurus.io/">Docusaurus</a>.`,
       },
       prism: {
         theme: prismThemes.github,
