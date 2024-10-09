@@ -17,15 +17,19 @@ Merhabalar, Ticaret İstatistik topluluğunun ilk blog yazısına hoş geldiniz.
 ### Windows
 
 1. Windows üzerinde gerekli kurulumları gerçekleştirecek olan <a href="https://gist.githubusercontent.com/yigit433/dad44f953742f4858362696514a8475e/raw/8ec1a197a948efb0419b33997a63c2369798ca71/miniconda-vscode-windows.ps1" target="_blank">komut dosyasını tarayıcınızda açın</a>
-2. Açılan sekmede sayfaya sağ tıklayarak `Farklı Kaydet` seçeneğine tıklayın ve bilgisayarınızıa ilgili dosyayı kaydedin.
-3. Bilgisayarınızındaki `Dosya Gezgini` uygulamasına girin ve `İndirilenler` klasörünü açın.
-4. İndirilenler klasörü içerisinde Yönetici olarak Powershell açın.
+2. Bilgisayarınızındaki `Dosya Gezgini` uygulamasına girin ve `İndirilenler` klasörünü açın.
+3. İndirilenler klasörü içerisinde Yönetici olarak Powershell açın.
     ![Windows Powershell](./assets/windows/windows-powershell.png)
-5. Açılan **Yönetici Powershell** penceresinde sırasıyla aşağıdaki komutları kullanın.
+4. Açılan **Yönetici Powershell** penceresinde sırasıyla aşağıdaki komutları kullanın.
+    ```
+    curl -o miniconda-vscode-windows.ps1 https://gist.githubusercontent.com/yigit433/dad44f953742f4858362696514a8475e/raw/8ec1a197a948efb0419b33997a63c2369798ca71/miniconda-vscode-windows.ps1
+    ```
+    ![Windows Script Download](./assets/windows/windows-script-download.png)
 
     ```powershell
     Set-ExecutionPolicy RemoteSigned -Scope Process
     ```
+    ![Windows Set-ExecutionPolicy](./assets/windows/windows-set-executionpolicy.png) 
 
     ```powershell
     .\miniconda-vscode-windows.ps1
