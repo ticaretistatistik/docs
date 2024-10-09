@@ -1,5 +1,5 @@
 ---
-title: R ile Çalışmak çin Gerekli Kurulumlar
+title: Gerekli kurulumlar
 description: R ile Çalışmak çin Gerekli Kurulumlar
 ---
 
