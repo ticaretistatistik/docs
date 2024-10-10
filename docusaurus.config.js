@@ -124,7 +124,7 @@ const config = {
           },
 
           {
-            to: '#',
+            to: '/etkinliklerimiz',
             position: 'left',
             label: 'Etkinlikler'
           },
@@ -172,6 +172,11 @@ const config = {
           {
             href: 'https://ticaret.edu.tr/istatistik/akademik-kadro/',
             label: 'Akademik Kadro',
+            position: 'right',
+          },
+          {
+            href: 'mailto:istatistik@ticaret.edu.tr',
+            label: 'Email',
             position: 'right',
           },
           {

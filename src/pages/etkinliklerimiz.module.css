@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 35px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+}
+
+.videoList { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #d4d1ca;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.playlistItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.playlistItemActive {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #d6cb89; 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.playlistItem:hover {
+    background-color: #eedfa5; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.thumbnail {
+    width: 120px;
+    height: 68px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.playlistItem:hover .thumbnail {
+    transform: scale(1.05); 
+}
+
+.videoInfo h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 300px; 
+}
+
+@media (max-width: 1500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .playlist {
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .thumbnail {
+        width: 90px;
+        height: 50px;
+    }
+    
+    .videoInfo h2 {
+        max-width: 200px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .playlist {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .thumbnail {
+        width: 90px;
+        height: 50px;
+    }
+    
+    .videoInfo h2 {
+        max-width: 100px; 
+    }
+}
