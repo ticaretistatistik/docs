@@ -124,13 +124,13 @@ const config = {
           },
 
           {
-            to: '/etkinlikler',
+            to: '#',
             position: 'left',
             label: 'Etkinlikler'
           },
           
           {
-            to: '/kulubumuz',
+            to: '#',
             position: "left",
             label: 'Kulübümüz'
           },
