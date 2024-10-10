@@ -86,13 +86,48 @@
     max-width: 300px; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .playlist {
+        margin-top: 20px;
+        width: 60%;
+    }
+
     .thumbnail {
         width: 90px;
         height: 50px;
     }
     
     .videoInfo h2 {
-        max-width: 150px; 
+        max-width: 200px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .playlist {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .thumbnail {
+        width: 90px;
+        height: 50px;
+    }
+    
+    .videoInfo h2 {
+        max-width: 100px; 
     }
 }

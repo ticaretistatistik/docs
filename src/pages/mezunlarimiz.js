@@ -63,20 +63,4 @@ export default function MezunlarimizPage() {
             </div>
         </Layout>
     );
-    /*return (
-        <Layout title="Mezunlarımız" description="İstanbul Ticaret Üniversitesi İstatistik bölümü mezunlarımızdan sizlere mesaj var!">
-            <div
-                style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: '50vh',
-                    fontSize: '20px',
-                }}>
-                <p>
-                    Edit <code>pages/helloReact.js</code> and save to reload.
-                </p>
-            </div>
-        </Layout>
-    );*/
 }
