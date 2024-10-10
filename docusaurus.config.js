@@ -86,30 +86,89 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'hakkimizdaSidebar',
+            type: 'dropdown',
             position: 'left',
-            label: 'Hakkımızda',
+            label: 'Programlar',
+            items: [
+              {
+                href: "#",
+                label: 'Jamovi',
+              },
+              {
+                href: "#",
+                label: 'Spss',
+              },
+              {
+                href: "#",
+                label: 'Tableau',
+              },
+            ]
+          },
+
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Yazılım',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'pythonSidebar',
+                label: 'Python',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'rSidebar',
+                label: 'R lang',
+              }
+            ]
+          },
+
+          {
+            to: '#',
+            position: 'left',
+            label: 'Etkinlikler'
+          },
+          
+          {
+            to: '#',
+            position: "left",
+            label: 'Kulübümüz'
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'spssSidebar',
+            to: '/mezunlarimiz',
             position: 'left',
-            label: 'Jamovi',
+            label: 'Mezunlarımız'
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'pythonSidebar',
+            type: 'dropdown',
             position: 'left',
-            label: 'Python',
+            label: 'Podcast',
+            items: [
+              {
+                target: "_blank",
+                to: "https://open.spotify.com/episode/6V0ILCX5RppYRMEFB0JVLd",
+                label: 'İstatistik nedir, Ne değildir',
+              },
+              {
+                target: "_blank",
+                to: "https://open.spotify.com/episode/4wURYTjCeMk3Ec3LLqAp7A",
+                label: 'İstatistik eğitimi zor mudur?',
+              },
+              {
+                target: "_blank",
+                to: "https://open.spotify.com/episode/5fRXoB7AjypToPSbuujgYl",
+                label: 'Yapay Zeka ve İstatistik',
+              },
+              {
+                target: "_blank",
+                to: "https://open.spotify.com/episode/2B9LdSpxOtfh2pMXOQVZxw",
+                label: 'Makine Öğrenmesi mi İstatistiksel Öğrenme mi?',
+              },
+            ]
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'rSidebar',
-            position: 'left',
-            label: 'R',
-          },
+
           {to: '/blog', label: 'Blog', position: 'left'},
+
           {
             href: 'https://ticaret.edu.tr/istatistik/akademik-kadro/',
             label: 'Akademik Kadro',
@@ -134,12 +193,24 @@ const config = {
             title: 'Dökümanlar',
             items: [
               {
+                href: "#",
+                label: 'Jamovi',
+              },
+              {
                 label: 'Python',
                 to: '/docs/docs/python/',
               },
               {
-                label: 'R',
+                label: 'R lang',
                 to: '/docs/docs/r/',
+              },
+              {
+                href: "#",
+                label: 'Spss',
+              },
+              {
+                href: "#",
+                label: 'Tableau',
               },
             ],
           },
