@@ -69,7 +69,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Bizi Instagram üzerinden takip ederek en güncel ticaret istatistikleri, analizler ve özel içeriklere anında ulaşabilirsiniz. Kaçırmamak için şimdi  <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/ticaretistatistik">takip edin</a>!',
+          'İstanbul ticaret üniversitesi istatistik bölümü ile ilgili bilgilere ve özel içeriklere anında ulaşabilirsiniz. Kaçırmamak için şimdi  <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/ticaretistatistik">takip edin</a>!',
         backgroundColor: '#f5cf06',
         textColor: '#091E42',
         isCloseable: false,
